@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDD1052C4265C0842E0189C2 /* libPods-MapAnnotationClusterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DA0AD962F5BAA066806834 /* libPods-MapAnnotationClusterDemo.a */; };
+		FF61E0B5210B00FC00AB15EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E0B4210B00FC00AB15EE /* AppDelegate.m */; };
+		FF61E0B8210B00FC00AB15EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E0B7210B00FC00AB15EE /* ViewController.m */; };
+		FF61E0BB210B00FC00AB15EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF61E0B9210B00FC00AB15EE /* Main.storyboard */; };
+		FF61E0BD210B00FD00AB15EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF61E0BC210B00FD00AB15EE /* Assets.xcassets */; };
+		FF61E0C0210B00FD00AB15EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF61E0BE210B00FD00AB15EE /* LaunchScreen.storyboard */; };
+		FF61E0C3210B00FD00AB15EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E0C2210B00FD00AB15EE /* main.m */; };
+		FF61E0CE210B021100AB15EE /* CreateSubViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E0CD210B021000AB15EE /* CreateSubViewHandler.m */; };
+		FF61E0D5210B025E00AB15EE /* HYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E0D1210B025E00AB15EE /* HYNavigationController.m */; };
+		FF61E0D6210B025E00AB15EE /* HYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E0D2210B025E00AB15EE /* HYViewController.m */; };
+		FF61E0D7210B025E00AB15EE /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = FF61E0D4210B025E00AB15EE /* back.png */; };
+		FF61E0DA210B03AB00AB15EE /* GDMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E0D9210B03AB00AB15EE /* GDMapViewController.m */; };
+		FF61E0DC210B0C0A00AB15EE /* Annotaions.data in Resources */ = {isa = PBXBuildFile; fileRef = FF61E0DB210B0C0900AB15EE /* Annotaions.data */; };
+		FF61E0DF210B0C3200AB15EE /* AnnotationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E0DE210B0C3200AB15EE /* AnnotationManager.m */; };
+		FF61E0E3210B0D8000AB15EE /* DpPositionCourierModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E0E2210B0D8000AB15EE /* DpPositionCourierModel.m */; };
+		FF61E0E9210B106A00AB15EE /* DpPositionAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E0E6210B106A00AB15EE /* DpPositionAnnotation.m */; };
+		FF61E0EA210B106A00AB15EE /* DpPositionAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E0E8210B106A00AB15EE /* DpPositionAnnotationView.m */; };
+		FF61E0ED210B10AC00AB15EE /* DpAnnotationImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E0EC210B10AC00AB15EE /* DpAnnotationImageView.m */; };
+		FF61E0F4210B1BD100AB15EE /* ovalGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = FF61E0EF210B1BD000AB15EE /* ovalGreen.png */; };
+		FF61E0F5210B1BD100AB15EE /* ovalRed.png in Resources */ = {isa = PBXBuildFile; fileRef = FF61E0F0210B1BD000AB15EE /* ovalRed.png */; };
+		FF61E0F6210B1BD100AB15EE /* bgImg.png in Resources */ = {isa = PBXBuildFile; fileRef = FF61E0F1210B1BD000AB15EE /* bgImg.png */; };
+		FF61E0FA210B21D800AB15EE /* person_on.png in Resources */ = {isa = PBXBuildFile; fileRef = FF61E0F9210B21D800AB15EE /* person_on.png */; };
+		FF61E0FD210B250B00AB15EE /* CoordinateQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E0FC210B250B00AB15EE /* CoordinateQuadTree.m */; };
+		FF61E100210B29BD00AB15EE /* QuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E0FF210B29BD00AB15EE /* QuadTree.m */; };
+		FF61E103210B2B0A00AB15EE /* ClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E101210B2B0A00AB15EE /* ClusterAnnotation.m */; };
+		FF61E106210E9C3700AB15EE /* ClusterAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E105210E9C3700AB15EE /* ClusterAnnotationView.m */; };
+		FF61E109210E9F1E00AB15EE /* GDClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E108210E9F1E00AB15EE /* GDClusterManager.m */; };
+		FF61E10D210EAD5800AB15EE /* BDMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E10C210EAD5800AB15EE /* BDMapViewController.m */; };
+		FF61E111210EE34400AB15EE /* BDClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E110210EE34400AB15EE /* BDClusterAnnotation.m */; };
+		FF61E114210EE3A800AB15EE /* BDClusterAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E113210EE3A800AB15EE /* BDClusterAnnotationView.m */; };
+		FF61E11E210EE99300AB15EE /* BMKClusterQuadtree.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E116210EE99200AB15EE /* BMKClusterQuadtree.m */; };
+		FF61E11F210EE99300AB15EE /* BMKClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E117210EE99200AB15EE /* BMKClusterAlgorithm.m */; };
+		FF61E120210EE99300AB15EE /* BMKClusterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E118210EE99200AB15EE /* BMKClusterItem.m */; };
+		FF61E121210EE99300AB15EE /* BMKClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF61E11A210EE99200AB15EE /* BMKClusterManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06C8D71B0E7F64B8F02C787F /* Pods-MapAnnotationClusterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapAnnotationClusterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapAnnotationClusterDemo/Pods-MapAnnotationClusterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		98DA0AD962F5BAA066806834 /* libPods-MapAnnotationClusterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapAnnotationClusterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B2E8F1CFB0BB72E852BD9E /* Pods-MapAnnotationClusterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapAnnotationClusterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapAnnotationClusterDemo/Pods-MapAnnotationClusterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FF61E0B0210B00FC00AB15EE /* MapAnnotationClusterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapAnnotationClusterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF61E0B3210B00FC00AB15EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF61E0B4210B00FC00AB15EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF61E0B6210B00FC00AB15EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF61E0B7210B00FC00AB15EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF61E0BA210B00FC00AB15EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF61E0BC210B00FD00AB15EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF61E0BF210B00FD00AB15EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF61E0C1210B00FD00AB15EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF61E0C2210B00FD00AB15EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF61E0CC210B021000AB15EE /* CreateSubViewHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateSubViewHandler.h; sourceTree = "<group>"; };
+		FF61E0CD210B021000AB15EE /* CreateSubViewHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateSubViewHandler.m; sourceTree = "<group>"; };
+		FF61E0D0210B025E00AB15EE /* HYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYViewController.h; sourceTree = "<group>"; };
+		FF61E0D1210B025E00AB15EE /* HYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNavigationController.m; sourceTree = "<group>"; };
+		FF61E0D2210B025E00AB15EE /* HYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYViewController.m; sourceTree = "<group>"; };
+		FF61E0D3210B025E00AB15EE /* HYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNavigationController.h; sourceTree = "<group>"; };
+		FF61E0D4210B025E00AB15EE /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		FF61E0D8210B03AB00AB15EE /* GDMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDMapViewController.h; sourceTree = "<group>"; };
+		FF61E0D9210B03AB00AB15EE /* GDMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDMapViewController.m; sourceTree = "<group>"; };
+		FF61E0DB210B0C0900AB15EE /* Annotaions.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Annotaions.data; sourceTree = "<group>"; };
+		FF61E0DD210B0C3200AB15EE /* AnnotationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnnotationManager.h; sourceTree = "<group>"; };
+		FF61E0DE210B0C3200AB15EE /* AnnotationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnnotationManager.m; sourceTree = "<group>"; };
+		FF61E0E1210B0D8000AB15EE /* DpPositionCourierModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DpPositionCourierModel.h; sourceTree = "<group>"; };
+		FF61E0E2210B0D8000AB15EE /* DpPositionCourierModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DpPositionCourierModel.m; sourceTree = "<group>"; };
+		FF61E0E5210B106A00AB15EE /* DpPositionAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DpPositionAnnotation.h; sourceTree = "<group>"; };
+		FF61E0E6210B106A00AB15EE /* DpPositionAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DpPositionAnnotation.m; sourceTree = "<group>"; };
+		FF61E0E7210B106A00AB15EE /* DpPositionAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DpPositionAnnotationView.h; sourceTree = "<group>"; };
+		FF61E0E8210B106A00AB15EE /* DpPositionAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DpPositionAnnotationView.m; sourceTree = "<group>"; };
+		FF61E0EB210B10AB00AB15EE /* DpAnnotationImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DpAnnotationImageView.h; sourceTree = "<group>"; };
+		FF61E0EC210B10AC00AB15EE /* DpAnnotationImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DpAnnotationImageView.m; sourceTree = "<group>"; };
+		FF61E0EF210B1BD000AB15EE /* ovalGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ovalGreen.png; sourceTree = "<group>"; };
+		FF61E0F0210B1BD000AB15EE /* ovalRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ovalRed.png; sourceTree = "<group>"; };
+		FF61E0F1210B1BD000AB15EE /* bgImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgImg.png; sourceTree = "<group>"; };
+		FF61E0F9210B21D800AB15EE /* person_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person_on.png; sourceTree = "<group>"; };
+		FF61E0FB210B250B00AB15EE /* CoordinateQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateQuadTree.h; sourceTree = "<group>"; };
+		FF61E0FC210B250B00AB15EE /* CoordinateQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinateQuadTree.m; sourceTree = "<group>"; };
+		FF61E0FE210B29BC00AB15EE /* QuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadTree.h; sourceTree = "<group>"; };
+		FF61E0FF210B29BD00AB15EE /* QuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadTree.m; sourceTree = "<group>"; };
+		FF61E101210B2B0A00AB15EE /* ClusterAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClusterAnnotation.m; sourceTree = "<group>"; };
+		FF61E102210B2B0A00AB15EE /* ClusterAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClusterAnnotation.h; sourceTree = "<group>"; };
+		FF61E104210E9C3700AB15EE /* ClusterAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClusterAnnotationView.h; sourceTree = "<group>"; };
+		FF61E105210E9C3700AB15EE /* ClusterAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClusterAnnotationView.m; sourceTree = "<group>"; };
+		FF61E107210E9F1E00AB15EE /* GDClusterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDClusterManager.h; sourceTree = "<group>"; };
+		FF61E108210E9F1E00AB15EE /* GDClusterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDClusterManager.m; sourceTree = "<group>"; };
+		FF61E10B210EAD5800AB15EE /* BDMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDMapViewController.h; sourceTree = "<group>"; };
+		FF61E10C210EAD5800AB15EE /* BDMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDMapViewController.m; sourceTree = "<group>"; };
+		FF61E10F210EE34400AB15EE /* BDClusterAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDClusterAnnotation.h; sourceTree = "<group>"; };
+		FF61E110210EE34400AB15EE /* BDClusterAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDClusterAnnotation.m; sourceTree = "<group>"; };
+		FF61E112210EE3A800AB15EE /* BDClusterAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDClusterAnnotationView.h; sourceTree = "<group>"; };
+		FF61E113210EE3A800AB15EE /* BDClusterAnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDClusterAnnotationView.m; sourceTree = "<group>"; };
+		FF61E115210EE59B00AB15EE /* ClusterConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClusterConst.h; sourceTree = "<group>"; };
+		FF61E116210EE99200AB15EE /* BMKClusterQuadtree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKClusterQuadtree.m; sourceTree = "<group>"; };
+		FF61E117210EE99200AB15EE /* BMKClusterAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKClusterAlgorithm.m; sourceTree = "<group>"; };
+		FF61E118210EE99200AB15EE /* BMKClusterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKClusterItem.m; sourceTree = "<group>"; };
+		FF61E119210EE99200AB15EE /* BMKClusterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKClusterManager.h; sourceTree = "<group>"; };
+		FF61E11A210EE99200AB15EE /* BMKClusterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKClusterManager.m; sourceTree = "<group>"; };
+		FF61E11B210EE99300AB15EE /* BMKClusterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKClusterItem.h; sourceTree = "<group>"; };
+		FF61E11C210EE99300AB15EE /* BMKClusterQuadtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKClusterQuadtree.h; sourceTree = "<group>"; };
+		FF61E11D210EE99300AB15EE /* BMKClusterAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKClusterAlgorithm.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF61E0AD210B00FC00AB15EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD1052C4265C0842E0189C2 /* libPods-MapAnnotationClusterDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5663D9DDAA3D83C556A8F35F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98DA0AD962F5BAA066806834 /* libPods-MapAnnotationClusterDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5CE2343E215DA4F659F923F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06C8D71B0E7F64B8F02C787F /* Pods-MapAnnotationClusterDemo.debug.xcconfig */,
+				C9B2E8F1CFB0BB72E852BD9E /* Pods-MapAnnotationClusterDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF61E0A7210B00FC00AB15EE = {
+			isa = PBXGroup;
+			children = (
+				FF61E0B2210B00FC00AB15EE /* MapAnnotationClusterDemo */,
+				FF61E0B1210B00FC00AB15EE /* Products */,
+				C5CE2343E215DA4F659F923F /* Pods */,
+				5663D9DDAA3D83C556A8F35F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF61E0B1210B00FC00AB15EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF61E0B0210B00FC00AB15EE /* MapAnnotationClusterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF61E0B2210B00FC00AB15EE /* MapAnnotationClusterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FF61E10E210EE32B00AB15EE /* BDCluster */,
+				FF61E10A210EA8BF00AB15EE /* GDCluster */,
+				FF61E0EE210B1BA800AB15EE /* Image */,
+				FF61E0E4210B0FF200AB15EE /* View */,
+				FF61E0E0210B0D6700AB15EE /* Model */,
+				FF61E0CF210B025E00AB15EE /* 自定义控制器 */,
+				FF61E0CB210B021000AB15EE /* Tool */,
+				FF61E0B3210B00FC00AB15EE /* AppDelegate.h */,
+				FF61E0B4210B00FC00AB15EE /* AppDelegate.m */,
+				FF61E0B6210B00FC00AB15EE /* ViewController.h */,
+				FF61E0B7210B00FC00AB15EE /* ViewController.m */,
+				FF61E0D8210B03AB00AB15EE /* GDMapViewController.h */,
+				FF61E0D9210B03AB00AB15EE /* GDMapViewController.m */,
+				FF61E10B210EAD5800AB15EE /* BDMapViewController.h */,
+				FF61E10C210EAD5800AB15EE /* BDMapViewController.m */,
+				FF61E0B9210B00FC00AB15EE /* Main.storyboard */,
+				FF61E0BC210B00FD00AB15EE /* Assets.xcassets */,
+				FF61E0BE210B00FD00AB15EE /* LaunchScreen.storyboard */,
+				FF61E0C1210B00FD00AB15EE /* Info.plist */,
+				FF61E0C2210B00FD00AB15EE /* main.m */,
+			);
+			path = MapAnnotationClusterDemo;
+			sourceTree = "<group>";
+		};
+		FF61E0CB210B021000AB15EE /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				FF61E0CC210B021000AB15EE /* CreateSubViewHandler.h */,
+				FF61E0CD210B021000AB15EE /* CreateSubViewHandler.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		FF61E0CF210B025E00AB15EE /* 自定义控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				FF61E0D0210B025E00AB15EE /* HYViewController.h */,
+				FF61E0D1210B025E00AB15EE /* HYNavigationController.m */,
+				FF61E0D2210B025E00AB15EE /* HYViewController.m */,
+				FF61E0D3210B025E00AB15EE /* HYNavigationController.h */,
+				FF61E0D4210B025E00AB15EE /* back.png */,
+			);
+			path = "自定义控制器";
+			sourceTree = "<group>";
+		};
+		FF61E0E0210B0D6700AB15EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF61E0DD210B0C3200AB15EE /* AnnotationManager.h */,
+				FF61E0DE210B0C3200AB15EE /* AnnotationManager.m */,
+				FF61E0DB210B0C0900AB15EE /* Annotaions.data */,
+				FF61E0E1210B0D8000AB15EE /* DpPositionCourierModel.h */,
+				FF61E0E2210B0D8000AB15EE /* DpPositionCourierModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF61E0E4210B0FF200AB15EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF61E0EB210B10AB00AB15EE /* DpAnnotationImageView.h */,
+				FF61E0EC210B10AC00AB15EE /* DpAnnotationImageView.m */,
+				FF61E0E5210B106A00AB15EE /* DpPositionAnnotation.h */,
+				FF61E0E6210B106A00AB15EE /* DpPositionAnnotation.m */,
+				FF61E0E7210B106A00AB15EE /* DpPositionAnnotationView.h */,
+				FF61E0E8210B106A00AB15EE /* DpPositionAnnotationView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF61E0EE210B1BA800AB15EE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				FF61E0F9210B21D800AB15EE /* person_on.png */,
+				FF61E0F1210B1BD000AB15EE /* bgImg.png */,
+				FF61E0EF210B1BD000AB15EE /* ovalGreen.png */,
+				FF61E0F0210B1BD000AB15EE /* ovalRed.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		FF61E10A210EA8BF00AB15EE /* GDCluster */ = {
+			isa = PBXGroup;
+			children = (
+				FF61E107210E9F1E00AB15EE /* GDClusterManager.h */,
+				FF61E108210E9F1E00AB15EE /* GDClusterManager.m */,
+				FF61E0FB210B250B00AB15EE /* CoordinateQuadTree.h */,
+				FF61E0FC210B250B00AB15EE /* CoordinateQuadTree.m */,
+				FF61E0FE210B29BC00AB15EE /* QuadTree.h */,
+				FF61E0FF210B29BD00AB15EE /* QuadTree.m */,
+				FF61E102210B2B0A00AB15EE /* ClusterAnnotation.h */,
+				FF61E101210B2B0A00AB15EE /* ClusterAnnotation.m */,
+				FF61E104210E9C3700AB15EE /* ClusterAnnotationView.h */,
+				FF61E105210E9C3700AB15EE /* ClusterAnnotationView.m */,
+				FF61E115210EE59B00AB15EE /* ClusterConst.h */,
+			);
+			path = GDCluster;
+			sourceTree = "<group>";
+		};
+		FF61E10E210EE32B00AB15EE /* BDCluster */ = {
+			isa = PBXGroup;
+			children = (
+				FF61E10F210EE34400AB15EE /* BDClusterAnnotation.h */,
+				FF61E110210EE34400AB15EE /* BDClusterAnnotation.m */,
+				FF61E112210EE3A800AB15EE /* BDClusterAnnotationView.h */,
+				FF61E113210EE3A800AB15EE /* BDClusterAnnotationView.m */,
+				FF61E11D210EE99300AB15EE /* BMKClusterAlgorithm.h */,
+				FF61E117210EE99200AB15EE /* BMKClusterAlgorithm.m */,
+				FF61E11B210EE99300AB15EE /* BMKClusterItem.h */,
+				FF61E118210EE99200AB15EE /* BMKClusterItem.m */,
+				FF61E119210EE99200AB15EE /* BMKClusterManager.h */,
+				FF61E11A210EE99200AB15EE /* BMKClusterManager.m */,
+				FF61E11C210EE99300AB15EE /* BMKClusterQuadtree.h */,
+				FF61E116210EE99200AB15EE /* BMKClusterQuadtree.m */,
+			);
+			path = BDCluster;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF61E0AF210B00FC00AB15EE /* MapAnnotationClusterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF61E0C6210B00FD00AB15EE /* Build configuration list for PBXNativeTarget "MapAnnotationClusterDemo" */;
+			buildPhases = (
+				15A24315F598F21085930DD2 /* [CP] Check Pods Manifest.lock */,
+				FF61E0AC210B00FC00AB15EE /* Sources */,
+				FF61E0AD210B00FC00AB15EE /* Frameworks */,
+				FF61E0AE210B00FC00AB15EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapAnnotationClusterDemo;
+			productName = MapAnnotationClusterDemo;
+			productReference = FF61E0B0210B00FC00AB15EE /* MapAnnotationClusterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF61E0A8210B00FC00AB15EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = MrChen;
+				TargetAttributes = {
+					FF61E0AF210B00FC00AB15EE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FF61E0AB210B00FC00AB15EE /* Build configuration list for PBXProject "MapAnnotationClusterDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF61E0A7210B00FC00AB15EE;
+			productRefGroup = FF61E0B1210B00FC00AB15EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF61E0AF210B00FC00AB15EE /* MapAnnotationClusterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF61E0AE210B00FC00AB15EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF61E0DC210B0C0A00AB15EE /* Annotaions.data in Resources */,
+				FF61E0D7210B025E00AB15EE /* back.png in Resources */,
+				FF61E0F6210B1BD100AB15EE /* bgImg.png in Resources */,
+				FF61E0C0210B00FD00AB15EE /* LaunchScreen.storyboard in Resources */,
+				FF61E0F4210B1BD100AB15EE /* ovalGreen.png in Resources */,
+				FF61E0F5210B1BD100AB15EE /* ovalRed.png in Resources */,
+				FF61E0BD210B00FD00AB15EE /* Assets.xcassets in Resources */,
+				FF61E0FA210B21D800AB15EE /* person_on.png in Resources */,
+				FF61E0BB210B00FC00AB15EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15A24315F598F21085930DD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapAnnotationClusterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF61E0AC210B00FC00AB15EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF61E103210B2B0A00AB15EE /* ClusterAnnotation.m in Sources */,
+				FF61E10D210EAD5800AB15EE /* BDMapViewController.m in Sources */,
+				FF61E11E210EE99300AB15EE /* BMKClusterQuadtree.m in Sources */,
+				FF61E100210B29BD00AB15EE /* QuadTree.m in Sources */,
+				FF61E0CE210B021100AB15EE /* CreateSubViewHandler.m in Sources */,
+				FF61E121210EE99300AB15EE /* BMKClusterManager.m in Sources */,
+				FF61E0B8210B00FC00AB15EE /* ViewController.m in Sources */,
+				FF61E0E3210B0D8000AB15EE /* DpPositionCourierModel.m in Sources */,
+				FF61E114210EE3A800AB15EE /* BDClusterAnnotationView.m in Sources */,
+				FF61E0ED210B10AC00AB15EE /* DpAnnotationImageView.m in Sources */,
+				FF61E0E9210B106A00AB15EE /* DpPositionAnnotation.m in Sources */,
+				FF61E111210EE34400AB15EE /* BDClusterAnnotation.m in Sources */,
+				FF61E0C3210B00FD00AB15EE /* main.m in Sources */,
+				FF61E109210E9F1E00AB15EE /* GDClusterManager.m in Sources */,
+				FF61E0D6210B025E00AB15EE /* HYViewController.m in Sources */,
+				FF61E120210EE99300AB15EE /* BMKClusterItem.m in Sources */,
+				FF61E0FD210B250B00AB15EE /* CoordinateQuadTree.m in Sources */,
+				FF61E11F210EE99300AB15EE /* BMKClusterAlgorithm.m in Sources */,
+				FF61E106210E9C3700AB15EE /* ClusterAnnotationView.m in Sources */,
+				FF61E0DF210B0C3200AB15EE /* AnnotationManager.m in Sources */,
+				FF61E0D5210B025E00AB15EE /* HYNavigationController.m in Sources */,
+				FF61E0DA210B03AB00AB15EE /* GDMapViewController.m in Sources */,
+				FF61E0B5210B00FC00AB15EE /* AppDelegate.m in Sources */,
+				FF61E0EA210B106A00AB15EE /* DpPositionAnnotationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF61E0B9210B00FC00AB15EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF61E0BA210B00FC00AB15EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF61E0BE210B00FD00AB15EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF61E0BF210B00FD00AB15EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF61E0C4210B00FD00AB15EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF61E0C5210B00FD00AB15EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF61E0C7210B00FD00AB15EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C8D71B0E7F64B8F02C787F /* Pods-MapAnnotationClusterDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D84XDPWAFE;
+				INFOPLIST_FILE = MapAnnotationClusterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrchen.test.MapAnnotationClusterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF61E0C8210B00FD00AB15EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B2E8F1CFB0BB72E852BD9E /* Pods-MapAnnotationClusterDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D84XDPWAFE;
+				INFOPLIST_FILE = MapAnnotationClusterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrchen.test.MapAnnotationClusterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF61E0AB210B00FC00AB15EE /* Build configuration list for PBXProject "MapAnnotationClusterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF61E0C4210B00FD00AB15EE /* Debug */,
+				FF61E0C5210B00FD00AB15EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF61E0C6210B00FD00AB15EE /* Build configuration list for PBXNativeTarget "MapAnnotationClusterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF61E0C7210B00FD00AB15EE /* Debug */,
+				FF61E0C8210B00FD00AB15EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF61E0A8210B00FC00AB15EE /* Project object */;
+}
